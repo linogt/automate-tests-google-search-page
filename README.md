@@ -33,6 +33,18 @@ quantos cenários de automação achar necessário.
 * Selenium.WebDriver.GeckoDriver.0.32.0
 
 
+## Como executar?
+
+1. Crie uma pasta
+2. Abra o terminal dentro dela e digite o comando "pull clone git@github.com:linogt/automate-tests-google-search-page.git" para clonar o repositório
+3. Abra a pasta "ProjetoBuscaGoogle"
+4. Abra o arquivo "AutomatizarPaginaBusca.csproj" no Visual Studio Community.
+5. Execute os testes
+
+## Processo
+
+Para criação dos cenários de teste foi feito uma pesquisa para selecionar quais funcionalidades da página de busca iriam ser testadas. Assim, destas funcionalidades foram selecionadas a de conversão, de cálculo aritiméticos, informações da tabela nutricional e buscas específicas. O Google também é otimo para perguntas em que a resposta é um nome, data ou local então essa função também foi testada. A página de busca do google possui vários links para outras páginas, sendo assim, foi essencial testar o layout do seu rodapé. Para a etapa de criação dos testes automatizados foi utilizado a tecnologia Selenium WebDriver na linguagem C# com o .NET mais recente. Após a conclusão dos testes foi utilizado o site GitHub para disponibilizar o projeto online.
+
 
 ## Resultados
 
@@ -423,3 +435,7 @@ quantos cenários de automação achar necessário.
     <td>Ok</td>
   </tr>
   </table>
+  
+  ## Avaliação Final
+  
+  A Página de Busca do Google passou em todos dos testes mostrando-se uma ferramente altamente eficaz com diversas utilidades. 
