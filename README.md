@@ -439,3 +439,7 @@ Para criação dos cenários de teste foi feito uma pesquisa para selecionar qua
   ## Avaliação Final
   
   A Página de Busca do Google passou em todos dos testes mostrando-se uma ferramente altamente eficaz com diversas utilidades. 
+  
+  ## Feito Por
+  
+  Gabriel Lino Topa Garcia
