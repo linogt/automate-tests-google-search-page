@@ -1,18 +1,8 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium.Interactions;
-using NUnit.Framework;
 using OpenQA.Selenium.Edge;
-
-
+using OpenQA.Selenium.Firefox;
 
 namespace MainTest
 {
@@ -61,7 +51,7 @@ namespace MainTest
             ClicarLink("/html/body/div[1]/div[5]/div[2]/div[1]/a[2]");
             CompararLink("https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1");
 
-            //Negocíos
+            //Negócios
             ClicarLink("/html/body/div[1]/div[5]/div[2]/div[1]/a[3]");
             CompararLink("https://smallbusiness.withgoogle.com/intl/pt-BR_br/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=BR#!/");
 
@@ -79,7 +69,7 @@ namespace MainTest
 
         }
 
-        public void ClicarLink(string link)
+        public void ClicarLink(String link)
         {
             driver.Navigate().GoToUrl("https://www.google.com/");
             driver.FindElement(By.XPath(link)).Click();

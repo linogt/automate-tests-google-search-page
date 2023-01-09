@@ -1,42 +1,36 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Remote;
-using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium.Interactions;
-using NUnit.Framework;
 using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Firefox;
 
 namespace MainTest
 {
 
 
-[TestFixture]
-public class AritmeticaTest {
-  private IWebDriver driver;
-  public IDictionary<string, object> vars {get; private set;}
-  private IJavaScriptExecutor js;
-  [SetUp]
-  public void SetUp() {
-    driver = new ChromeDriver();
-    js = (IJavaScriptExecutor)driver;
-    vars = new Dictionary<string, object>();
-    driver.Navigate().GoToUrl("https://www.google.com.br/");
-    Thread.Sleep(3000);
-  }
-  [TearDown]
-  protected void TearDown() {
-    driver.Quit();
-  }
-    
-    [Test]
-    public void Contas()
-    {       //Soma
+    [TestFixture]
+    public class AritmeticaTest
+    {
+        private IWebDriver driver;
+        public IDictionary<string, object> vars { get; private set; }
+        private IJavaScriptExecutor js;
+        [SetUp]
+        public void SetUp()
+        {
+            driver = new ChromeDriver();
+            js = (IJavaScriptExecutor)driver;
+            vars = new Dictionary<string, object>();
+            driver.Navigate().GoToUrl("https://www.google.com.br/");
+        }
+        [TearDown]
+        protected void TearDown()
+        {
+            driver.Quit();
+        }
+
+        [Test]
+        public void Contas()
+        {   //Soma
             PesquisarPergunta("0+0");
             CompararResposta("0");
             //Soma
@@ -71,16 +65,16 @@ public class AritmeticaTest {
 
 
 
-    public void PesquisarPergunta(String pergunta)
-    {
-      driver.FindElement(By.Name("q")).Clear();
-      driver.FindElement(By.Name("q")).SendKeys(pergunta + Keys.Enter);
-    }
+        public void PesquisarPergunta(String pergunta)
+        {
+            driver.FindElement(By.Name("q")).Clear();
+            driver.FindElement(By.Name("q")).SendKeys(pergunta + Keys.Enter);
+        }
 
-    public void CompararResposta(String resposta)
-    {
-      Assert.That(driver.FindElement(By.Id("cwos")).Text, Is.EqualTo(resposta));
-    }
+        public void CompararResposta(String resposta)
+        {
+            Assert.That(driver.FindElement(By.Id("cwos")).Text, Is.EqualTo(resposta));
+        }
 
     }
 }

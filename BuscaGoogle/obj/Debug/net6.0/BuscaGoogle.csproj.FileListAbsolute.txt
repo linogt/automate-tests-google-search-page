@@ -102,14 +102,3 @@ C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\obj\Debug\net6.0\refint\Busc
 C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\obj\Debug\net6.0\BuscaGoogle.pdb
 C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\obj\Debug\net6.0\BuscaGoogle.genruntimeconfig.cache
 C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\obj\Debug\net6.0\ref\BuscaGoogle.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\SeleniumExtras.PageObjects.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\glino\source\repos\BuscaGoogle\BuscaGoogle\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
