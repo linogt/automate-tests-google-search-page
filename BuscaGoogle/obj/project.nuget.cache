@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MFnQvnAScIQv3PRbUJ/jZLRLZspyhbhW0vL7Lu3kAupsPuJqEoR3YdeJGWzzkWezCf3l2xJVbuM+JLPIMfFAxg==",
+  "dgSpecHash": "/F6FLo9KKqnoHeSA6DrMbwnQSH++ik32JA5iKi33Zn78ge6KpOx87frdLdwLDS2Z94CNzGvLCoBXvmepfzb1YQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\glino\\source\\repos\\BuscaGoogle\\BuscaGoogle\\BuscaGoogle.csproj",
+  "projectFilePath": "C:\\Users\\glino\\source\\repos\\ProjetoBuscaGoogle\\BuscaGoogle\\BuscaGoogle.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\glino\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\glino\\.nuget\\packages\\microsoft.codecoverage\\17.4.1\\microsoft.codecoverage.17.4.1.nupkg.sha512",
