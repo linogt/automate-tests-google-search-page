@@ -18,6 +18,8 @@ quantos cenários de automação achar necessário.
 * .NET
 * Visual Studio Code Community
 * Selenium WebDriver 
+* Selenium Grid
+* Docker
 
 
 ## Pacotes utilizados
