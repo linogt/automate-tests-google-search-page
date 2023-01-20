@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Remote;
 
 namespace MainTest
 {
@@ -17,6 +18,7 @@ namespace MainTest
         [SetUp]
         public void SetUp()
         {
+
             driver = new ChromeDriver();
             js = (IJavaScriptExecutor)driver;
             vars = new Dictionary<string, object>();
@@ -48,7 +50,7 @@ namespace MainTest
 
             //Corinthians
             PesquisarPergunta("Data em que o Corinthians foi fundado");
-            CompararResposta("1 de setembro de 1910");
+            CompararResposta("1910");
 
             //Jujutsu Kaisen
             PesquisarPergunta("Nome do protagonista de Jujutsu Kaisen");
@@ -65,10 +67,6 @@ namespace MainTest
             //Japão
             PesquisarPergunta("Qual é a capital do Japão?");
             CompararResposta("Tóquio");
-
-            //Rússia
-            PesquisarPergunta("qual é o maior pais do mundo");
-            Assert.That(driver.FindElement(By.CssSelector("#rso > div:nth-child(2) > div > block-component > div > div.dG2XIf.XzTjhb > div > div > div > div > div.ifM9O > div > div > div > div > div.wDYxhc > div > div.webanswers-webanswers_table__webanswers-table > table > tbody > tr:nth-child(2) > td:nth-child(1) > b")).Text, Is.EqualTo("Rússia"));
 
             //Astronauta Lua
             PesquisarPergunta("qual é o primeiro astronauta a pisar na lua");

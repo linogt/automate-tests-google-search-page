@@ -15,7 +15,7 @@ namespace MainTest
         [SetUp]
         public void SetUp()
         {
-            driver = new ChromeDriver();
+            driver = new FirefoxDriver();
             js = (IJavaScriptExecutor)driver;
             vars = new Dictionary<string, object>();
             driver.Navigate().GoToUrl("https://www.google.com/");

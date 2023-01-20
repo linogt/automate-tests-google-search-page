@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Remote;
 
 namespace MainTest
 {
@@ -17,8 +18,9 @@ namespace MainTest
         [SetUp]
         public void SetUp()
         {
-            driver = new ChromeDriver();
-            js = (IJavaScriptExecutor)driver;
+
+            ChromeOptions cap_chrome = new ChromeOptions();
+            driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), cap_chrome);
             vars = new Dictionary<string, object>();
             driver.Navigate().GoToUrl("https://www.google.com/");
         }
@@ -61,6 +63,7 @@ namespace MainTest
         {
             driver.FindElement(By.Name("q")).Clear();
             driver.FindElement(By.Name("q")).SendKeys(pergunta + Keys.Enter);
+            Thread.Sleep(3000);
         }
 
         public void CompararResposta(String moeda1, String moeda2)
