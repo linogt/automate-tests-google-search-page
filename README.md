@@ -42,11 +42,11 @@ quantos cenários de automação achar necessário.
 
 ## Processo
 
-###1º Etapa - Criação dos Cenários de Testes
+### 1º Etapa - Criação dos Cenários de Testes
 
 Nessa etapa foi feita a avaliação para decidir quais seriam os cenários de testes. Assim, em vista das funcionalidades oferecidas pelo Google, foram selecionadas as de conversão de moeda, cálculo aritiméticos, informações de tabela nutriconal e buscas específicas. Ademais, o layout da página e os caminhos para os links também foram selecionados para teste. Por fim, foram definidas as entradas e saídas esperadas em cada cenário.
 
-###2º Etapa - Criação dos Testes Automatizados
+### 2º Etapa - Criação dos Testes Automatizados
 
 Para a etapa de criação dos testes automatizados foi utilizado a tecnologia Selenium WebDriver na linguagem C# com o .NET mais recente.
 
@@ -57,11 +57,11 @@ Classe SetUp: Classe que define o comportamento do teste antes dele ser executad
 Classe TearDown: Classe que define o comportamento do teste após a execução, como por exemplo a função de fechar driver.
 Classe Test: Classe que define o comportamento do teste ao longo da sua execução, como por exemplo os asserts e métodos.
 
-###3º Etapa - Criação dos Métodos
+### 3º Etapa - Criação dos Métodos
 
 Após a criação dos testes é feito uma análise para converter todo comportamento repetitivo em método.
 
-###4º Etapa - Testes no ambiente da máquina local
+### 4º Etapa - Testes no ambiente da máquina local
 
 Nessa etapa os cenários foram testados no ambiente da máquina local (Windows) nos navegadores Google Chrome, Microsoft Edge e Firefox. Os resultados dos testes foram salvos em tabelas que podem ser conferidas na seção "Resultados" e "Tempo dos Testes".
 
@@ -94,7 +94,7 @@ Teste de Conversão - Ambiente Windows - Navegador Edge
 https://user-images.githubusercontent.com/75547468/213668903-76181006-8809-4908-9d27-4c6ccc9144c4.mp4
 
 
-###5º Etapa - Testes no ambiente Linux
+### 5º Etapa - Testes no ambiente Linux
 
 Para testar no ambiente Linux foi utilizado o software Docker em conjunto com o Selenium Grid. Nessa etapa os cenarios foram testados nos navegadores Google Chrome, Microsoft Edge e Firefox. Os resultados dos testes foram salvos em tabelas que podem ser conferidas na seção "Resultados" e "Tempo dos Testes".
 
@@ -107,7 +107,7 @@ Teste de Conversão - Ambiente Linux - Navegador Google
 https://user-images.githubusercontent.com/75547468/213668758-14f5c4db-7c07-48d9-8cb0-6d0c6310d361.mp4
 
 
-###6º Etapa - Disponibilização do Projeto
+### 6º Etapa - Disponibilização do Projeto
 
 Após a conclusão dos testes o código e seus resultados foram disponibilizados no GitHub
 
