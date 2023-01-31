@@ -636,7 +636,7 @@ Após a conclusão dos testes o código e seus resultados foram disponibilizados
       <td>3,6 min</td>
       <td>40 s</td>
       <td>1,4 min</td>
-      <td>1,1 min/td>
+      <td>1,1 min</td>
       <td>1 min</td>
     </tr>
     <tr>
